@@ -1,0 +1,31 @@
+/* MyBlock Studio Unified v2 — shared design tokens */
+:root {
+  --mb-bg: #f3f7fd;
+  --mb-surface: #ffffff;
+  --mb-surface-2: #f7faff;
+  --mb-text: #24344d;
+  --mb-muted: #687b93;
+  --mb-line: #dce6f2;
+  --mb-accent: #4c97ff;
+  --mb-accent-strong: #2877e5;
+  --mb-accent-soft: #e8f2ff;
+  --mb-shadow: 0 14px 38px rgba(30, 69, 119, .08);
+  --mb-radius: 20px;
+  --mb-radius-sm: 13px;
+  --mb-content-width: 1120px;
+  --mb-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+html[data-mb-theme="dark"] {
+  --mb-bg: #111a28;
+  --mb-surface: #1b2839;
+  --mb-surface-2: #223247;
+  --mb-text: #e8eff9;
+  --mb-muted: #a9b8cc;
+  --mb-line: #354961;
+  --mb-accent: #77b4ff;
+  --mb-accent-strong: #9bc9ff;
+  --mb-accent-soft: #263c57;
+  --mb-shadow: 0 16px 42px rgba(0, 0, 0, .22);
+  color-scheme: dark;
+}
